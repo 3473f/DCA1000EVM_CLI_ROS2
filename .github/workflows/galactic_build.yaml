@@ -23,8 +23,8 @@ jobs:
         with: 
           target-ros2-distro: ${{ env.ROS_DISTRO }}
           package-name: 
-            ti_mmwave_config
-            ti_mmwave_config_interface
+            dca1000evm_cli
+            dca1000evm_interface 
           skip-tests: true
           vcs-repo-file-url: https://raw.githubusercontent.com/ros2/ros2/humble/ros2.repos
       - uses: actions/upload-artifact@v1
