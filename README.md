@@ -16,7 +16,7 @@ The package was tested under ROS2 Galactic and Humble on Ubuntu 20.04 and Ubuntu
 3. Clone this repo into your workspace:
 
     ```
-    git clone 
+    git clone https://github.com/3473f/DCA1000EVM_CLI_ROS2
     ```
 
 4. Install dependencies and build the workspace:
@@ -59,22 +59,22 @@ ros2 launch dca1000evm_cli dca1000evm_cli.launch.py
 
     The timeout for the response from the CLI interface.
 #### Services
-- **`start_record`** ([dca1000evm_interface/srv/StartRecord]())
+- **`start_record`** ([dca1000evm_interface/srv/StartRecord](https://github.com/3473f/DCA1000EVM_CLI_ROS2/blob/main/dca1000evm_interface/srv/StartRecord.srv))
 
     Start recording.
 
-- **`stop_record`** ([dca1000evm_interface/srv/StopRecord]())
+- **`stop_record`** ([dca1000evm_interface/srv/StopRecord](https://github.com/3473f/DCA1000EVM_CLI_ROS2/blob/main/dca1000evm_interface/srv/StopRecord.srv))
 
     Stop recording.
 
-- **`fpga_config`** ([dca1000evm_interface/srv/FpgaConfig]())
+- **`fpga_config`** ([dca1000evm_interface/srv/FpgaConfig](https://github.com/3473f/DCA1000EVM_CLI_ROS2/blob/main/dca1000evm_interface/srv/FpgaConfig.srv))
 
     Send FPGA configuration to the board.
 
-- **`record_config`** ([dca1000evm_interface/srv/RecordConfig]())
+- **`record_config`** ([dca1000evm_interface/srv/RecordConfig](https://github.com/3473f/DCA1000EVM_CLI_ROS2/blob/main/dca1000evm_interface/srv/RecordConfig.srv))
 
     Send record configuration to the board.
 
-- **`reset_ar_device`** ([dca1000evm_interface/srv/ResetArDevice]())
+- **`reset_ar_device`** ([dca1000evm_interface/srv/ResetArDevice](https://github.com/3473f/DCA1000EVM_CLI_ROS2/blob/main/dca1000evm_interface/srv/ResetArDevice.srv))
 
     Reset the sensor attached to the DCA1000EVM board.
