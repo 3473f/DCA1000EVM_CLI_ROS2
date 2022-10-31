@@ -19,10 +19,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='developer',
+    maintainer='Mohamed Abdelaziz',
     maintainer_email='mohamed.abdelaziz@zal.aero',
     description='ROS wrapper for the DCA1000EVM CLI tool',
-    license='TODO: License declaration',
+    license='BSD',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
