@@ -1,0 +1,4 @@
+dca1000evm_cli_node:
+  ros__parameters:
+    config_file: '$(find-pkg-share dca1000evm_cli)/config/dca1000evm.json'
+    cli_timeout: 20
